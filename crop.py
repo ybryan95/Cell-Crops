@@ -26,7 +26,7 @@ def plot_nuclei_crops(df, r, gspath):
         if site not in image_cache:
             image_path = (
                 f"{gspath}/"
-                f"LaserParticle_{well}_{site}_3_CompositeLP.png"
+                f"Project_{well}_{site}_3_CompositeLP.png"
             )
 
             image_bytes = subprocess.run(
